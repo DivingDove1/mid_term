@@ -1,0 +1,21 @@
+# Collect Em All! 自動遊戲程式 - 套件依賴
+# 安裝方式：pip install -r requirements.txt --break-system-packages
+# 或（如果上面指令有問題）：pip install -r requirements.txt
+
+# 網頁自動化
+selenium>=4.15.0
+
+# 滑鼠鍵盤控制與螢幕截圖
+PyAutoGUI>=0.9.54
+
+# 圖像處理（使用較新版本以支援 Python 3.13）
+Pillow>=10.3.0
+
+# 數值計算（用於顏色分析）
+numpy>=1.26.0
+
+# 圖像識別（PyAutoGUI 的 locateOnScreen 需要）
+opencv-python>=4.8.0
+
+# 瀏覽器驅動自動管理
+webdriver-manager>=4.0.0
